@@ -134,8 +134,8 @@ class Beam:
             screen.blit(self.img, self.rct)
 
 
-class Explosion:
-    def __init__(self,)
+#class Explosion:
+    #def __init__(self,a)
 
 
 

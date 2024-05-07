@@ -134,6 +134,10 @@ class Beam:
             screen.blit(self.img, self.rct)
 
 
+class Explosion:
+    def __init__(self,)
+
+
 
 class Score:
     def __init__(self) -> None:
@@ -142,7 +146,8 @@ class Score:
     def update(self,screen):
         self.img = self.fonto.render("スコア：" + str(self.Score),0,(0,0,255))
         screen.blit(self.img,[100,HEIGHT-50])
-        print(self.Score)
+        
+
 
 def main():
     pg.display.set_caption("たたかえ！こうかとん")
